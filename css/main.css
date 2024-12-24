@@ -1047,3 +1047,34 @@ footer {
 #competences li strong {
   color: #0073e6;
 }
+/* Ajouter un style général pour les images */
+.portfolio-content img {
+    max-width: 100%; /* Pour que les images ne dépassent pas du container */
+    margin-bottom: 20px; /* Espacement en bas des images */
+    display: block; /* Pour s'assurer que l'image est sur sa propre ligne */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ajuster l'affichage des images côte à côte */
+.portfolio-images {
+    display: flex;
+    justify-content: space-between; /* Séparation des images à gauche et droite */
+    gap: 10px; /* Espacement entre les images */
+}
+
+.portfolio-pull-left, .portfolio-pull-right {
+    width: 48%; /* Largeur des images pour éviter qu'elles ne chevauchent */
+    object-fit: cover; /* Pour que les images remplissent l'espace sans déformer */
+}
+
+/* Pour l'image en pleine largeur */
+.portfolio-image-wrapper {
+    margin-bottom: 20px;
+}
+
+.portfolio-full-width {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Pour éviter la distorsion de l'image */
+}

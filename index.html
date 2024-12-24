@@ -200,20 +200,23 @@
           </div>
       </div> <!-- / portfolio-header -->
       <div class="portfolio-content">
-          <p>Dans le cadre d’un projet professionnalisant en dehors de mes études, j’ai développé un algorithme d’attribution de chambres pour un séjour étudiant. Ma mission consistait à garantir une organisation optimale tout en respectant les préférences des participants. La première étape a été de concevoir un questionnaire précis afin de collecter des données fiables et exploitables. Ensuite, j’ai développé un algorithme sous RStudio permettant d’attribuer des binômes selon les préférences exprimées et de former des chambres de 4 personnes tout en respectant des règles claires. Ce projet m’a initié à la programmation algorithmique, au nettoyage et à l’analyse des données, et m’a permis d’appréhender les nombreuses possibilités offertes par R pour résoudre des problématiques organisationnelles.</p>
-          <img class="portfolio-full-width" src="img/ciel_08.jpg" alt="an image"> 
-          
-          <p>La difficulté résidait dans la collecte des données et des informations pour tout le monde, tout en respectant les choix de chacun. Parfois, nous avions des binômes réciproques, d’autres fois non, et il y avait aussi des personnes qui ne savaient pas avec qui elles voulaient être. Parfois, cela devenait un cercle vicieux.</p>
-          
-          <div class="portfolio-images">
-              <img class="portfolio-pull-left" src="img/code_11.jpg" alt="an image"> 
-              <img class="portfolio-pull-right" src="img/chambre_09.jpg" alt="an image"> 
-          </div>
-          
-          <p>Cette fonction illustre bien la complexité du programme en permettant de déterminer les cycles au sein d’un groupe de personnes, un peu comme un serpent qui se mord la queue. Par exemple, si la personne A veut être avec la personne B, B veut être avec C, et C veut être avec A, cela forme un cycle. Le programme commence par collecter les relations entre chaque individu, puis suit les liens d’une personne à l’autre pour identifier les cycles qui se forment. Lorsque le programme détecte un cycle, il l’ajoute à une liste. Cependant, pour éviter les doublons, il vérifie que le cycle n’a pas déjà été trouvé.</p>
-          
-          <p>Ce processus permet de visualiser la façon dont les relations circulent dans le groupe, même si parfois certaines personnes ne savent pas avec qui elles veulent être. Cette incertitude complique la formation des cycles, car il peut y avoir des personnes qui n’ont pas de préférence claire, ou des situations où les relations deviennent circulaires et auto-référentielles, rendant l’identification des cycles plus difficile.</p>
-      </div>
+        <p>Dans le cadre d’un projet professionnalisant en dehors de mes études, j’ai développé un algorithme d’attribution de chambres pour un séjour étudiant. Ma mission consistait à garantir une organisation optimale tout en respectant les préférences des participants. La première étape a été de concevoir un questionnaire précis afin de collecter des données fiables et exploitables. Ensuite, j’ai développé un algorithme sous RStudio permettant d’attribuer des binômes selon les préférences exprimées et de former des chambres de 4 personnes tout en respectant des règles claires. Ce projet m’a initié à la programmation algorithmique, au nettoyage et à l’analyse des données, et m’a permis d’appréhender les nombreuses possibilités offertes par R pour résoudre des problématiques organisationnelles.</p>
+        
+        <div class="portfolio-image-wrapper">
+            <img class="portfolio-full-width" src="img/chambre_09.jpg" alt="an image">
+        </div>
+        
+        <p>La difficulté résidait dans la collecte des données et des informations pour tout le monde, tout en respectant les choix de chacun. Parfois, nous avions des binômes réciproques, d’autres fois non, et il y avait aussi des personnes qui ne savaient pas avec qui elles voulaient être. Parfois, cela devenait un cercle vicieux.</p>
+        
+        <div class="portfolio-images">
+            <img class="portfolio-pull-left" src="img/code_11.jpg" alt="an image"> 
+            
+        </div>
+        
+        <p>Cette fonction illustre bien la complexité du programme en permettant de déterminer les cycles au sein d’un groupe de personnes, un peu comme un serpent qui se mord la queue. Par exemple, si la personne A veut être avec la personne B, B veut être avec C, et C veut être avec A, cela forme un cycle. Le programme commence par collecter les relations entre chaque individu, puis suit les liens d’une personne à l’autre pour identifier les cycles qui se forment. Lorsque le programme détecte un cycle, il l’ajoute à une liste. Cependant, pour éviter les doublons, il vérifie que le cycle n’a pas déjà été trouvé.</p>
+        
+        <p>Ce processus permet de visualiser la façon dont les relations circulent dans le groupe, même si parfois certaines personnes ne savent pas avec qui elles veulent être. Cette incertitude complique la formation des cycles, car il peut y avoir des personnes qui n’ont pas de préférence claire, ou des situations où les relations deviennent circulaires et auto-référentielles, rendant l’identification des cycles plus difficile.</p>
+    </div>
   </div>
 </figure>
 
@@ -247,7 +250,7 @@
       <img class="portfolio-full-width" src="img/foot_14.jpg" alt="an image"> 
       <p>Sur l’application, on peut modifier l’année de début et l’année de fin pour explorer l’historique des matchs. Il est également possible de sélectionner les continents pour les comparer entre eux, avec des couleurs distinctes pour différencier chaque continent.</p>
       <img class="portfolio-pull-left" src="img/foot_12.png" alt="an image">
-      <p>C’est l’un de mes premiers projets de web scraping et de création d’application Shiny. Ce projet m’a permis de découvrir les nombreuses possibilités offertes par RStudio et m’a ouvert de nombreuses portes dans le domaine de la programmation. Il m’a également permis de mieux comprendre l’étendue des outils disponibles pour analyser et visualiser des données complexes.</p>
+      <p> C’est l’un de mes premiers projets de web scraping et de création d’application Shiny. Ce projet m’a permis de découvrir les nombreuses possibilités offertes par RStudio et m’a ouvert des portes dans le domaine de la programmation. Il m’a également permis de mieux comprendre l’étendue des outils pour analyser et visualiser des données complexes.</p>
     </div>
   </div>
   <!-- /modal -->
@@ -285,11 +288,11 @@
         
         <div class="image-text">
             <img class="portfolio-pull-left" src="img/Acp_15.png" alt="an image">
-            <p>Dans le cadre de mes travaux en Data Science, j’ai utilisé le correlogramme pour explorer les corrélations entre différentes variables, ce qui m’a permis de mieux comprendre les relations entre elles et d’identifier des patterns intéressants. Par exemple, dans une analyse de régression linéaire, le correlogramme m’a aidé à vérifier la multicolinéarité entre les variables indépendantes, ce qui est crucial pour assurer la validité des modèles statistiques.</p>
+            <p>Dans le cadre de mes travaux en Data Science, j’ai utilisé le correlogramme pour explorer les corrélations entre différentes variables, ce qui m’a permis de mieux comprendre les relations entre elles et d’identifier des patterns intéressants. Par exemple, dans une analyse de régression linéaire, le correlogramme m’a aidé à vérifier la multicolinéarité entre les variables indépendantes, crucial pour assurer la validité des modèles statistiques.</p>
         </div>
     
         <div class="image-text">
-            <p>J’utilise des techniques de clustering, telles que K-means ou la hiérarchisation, pour regrouper des objets ou des observations similaires en catégories distinctes. Cela me permet d’analyser les données de manière plus ciblée et de faciliter la prise de décisions à partir de ces groupes.</p>
+            <p>’utilise des techniques de clustering, comme K-means ou la hiérarchisation, pour regrouper des objets ou observations similaires en catégories distinctes. Cela me permet d’analyser les données de manière ciblée et de faciliter la prise de décisions.</p>
             <img class="portfolio-pull-right" src="img/cluster_16.png" alt="an image">
         </div>
         
